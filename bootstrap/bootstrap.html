@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+   <nav class="navbar navbar-inverse navbar-fixed=top">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+        </button>
+        
+        <a class="navbar-brand" href="#">programming Knowledge</a>
+    
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href='#'>Home</a></li>
+                <li ><a href='bootstrap.html'>About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"
+                    data-toggle="dropdown">Learn<b class="caret"></b>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">javascript</li>
+                    <li><a href="#">Vue.js</a></li>
+                    <li><a href="#">node.js</a></li>
+                    <li class="dropdown-header">Examples</li>
+                    <li><a href="#">bootstrap</a></li>
+                    <li><a href="#">java</a></li>
+                </ul>
+                
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="mycarousel" class="carousel side" data-ride="carousel" data-interval="2000">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-silde-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-silde-to="1"></li>
+                <li data-target="#mycarousel" data-silde-to="2"></li>
+                <li data-target="#mycarousel" data-silde-to="3"></li>
+           
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/js.jpg">
+                </div>
+                <div class="item ">
+                        <img src="img/nodejs.jpg">
+                    </div>
+                <div class="item">
+                        <img src="img/vuejs.jpg">
+                    </div>
+                    <div class="item ">
+                            <img src="img/boot.jpg">
+                        </div>
+            </div>
+            <a class="left carousel-cantrol" href="#mycarousel" role="button" data-ride="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-cantrol" href="#mycarousel" role="button" data-ride="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                       
+    
+        </div>
+
+       <div class="jumbotron text-center">
+            <h1>eizzy</h1>
+            
+            <button type=button class="btn btn-lg btn-success">Save</button>
+                
+            <button type=button class="btn btn-lg btn-primary">Cancel</button>
+           
+        </div>
+        <div class="row">
+                
+                    
+            <div class="col-sm-4">
+                <h3><b>Nodejs</b></h3>
+                <a href="bootstrap.html" class="thumbnail">
+                        <img src="pics/nodejs.jpg">
+                    </a>
+                    
+        
+                    
+            <p>   <i><u> Node.js</u> is a platform built on Chrome's JavaScript runtime for easily building fast and 
+                    scalable network applications. 
+                    Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, 
+                    perfect for data-intensive real-time applications 
+                    that run across distributed devices.</i></p>
+                    <button type=button class="btn  btn-danger">Save</button>
+
+            </div>
+        
+        
+                <div class="col-sm-4">
+                    <h3><b>Vue.js</b></h3>
+                    
+                    <a href="bootstrap.html" class="thumbnail">
+                            <img src="pics/vuejs.jpg">
+                        </a>
+                        
+                        
+                <p>   <i><u> Vue </u>is a progressive framework for building user interfaces. Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. 
+                    .</i></p>
+                    <button type=button class="btn  btn-success">Save</button>
+    
+                </div>
+
+                <div class="col-sm-4">
+                        <h3><b>Bootstrap</b></h3>
+                <a href="bootstrap.html" class="thumbnail">
+                    <img src="pics/boot.jpg">
+                </a>
+                            
+                    <p>   <i><u>Bootstrap</u> is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.
+                        .</i></p>
+                        <button type=button class="btn  btn-primary">Save</button>
+        
+                    </div>
+        </div>
+            
+        
+        <div class="page-header">
+            Button 
+
+        </div>
+        <p>
+            <button type=button class="btn btn-default">default</button>
+            
+            <button type=button class="btn btn-sm btn-primary">primary</button>
+            
+            <button type=button class="btn btn-xs btn-success">success</button>
+            
+            <button type=button class="btn btn-xl btn-info">info</button>
+            
+            <button type=button class="btn btn-lg btn-warning">warning</button>
+            
+            <button type=button class="btn btn-danger">danger</button>
+            
+            
+            
+            <button type=button class="btn btn-link">link</button>
+        </p>
+       
+</div>
+    <div class="navbar navbar-inverse navbar-bottom"> 
+    <div class="container"></div>
+    <div class="navbar-text pull-left">
+    <p > @Copyright programming Knowledge 2018</p>
+    </div>
+    <div class="navbar-text pull-right">
+            <a href="bootstrap.html"><i class="fab fa-facebook-square"></i>
+            </a>
+            </div>
+
+</div>
+    </body>
+</html>
